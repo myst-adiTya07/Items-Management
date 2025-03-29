@@ -19,4 +19,4 @@
 ## ⚙️ Setup Instructions
 1. Clone the repo:
    ```sh
-  https://github.com/myst-adiTya07/Items-Management.git
+  git clone https://github.com/myst-adiTya07/Items-Management.git
