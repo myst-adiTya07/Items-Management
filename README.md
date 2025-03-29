@@ -1,7 +1,7 @@
 # Resollect - Item Management System
 
 ## 🚀 Live Demo
-[Live Deployed Link](#) - Hosted on Vercel/Netlify
+[Live Deployed Link](https://items-management-one.vercel.app/) - Hosted on Vercel/Netlify
 
 ## 📌 Features
 - ✅ Responsive UI (Mobile & Desktop)
