@@ -63,7 +63,7 @@ const ItemList = () => {
                                 <tr key={item._id}>
                                     <td className="border p-2">{(item.name)}</td>
                                     <td className="border p-2">
-                                        <button className="bg-gray-400 rounded-4xl text-white px-2 py-1" 
+                                        <button className="bg-gray-400 rounded-4xl cursor-pointer hover:bg-gray-500 text-white px-2 py-1" 
                                             onClick={() => handleDelete(item._id)}>Delete</button>
                                     </td>
                                 </tr>

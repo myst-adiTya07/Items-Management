@@ -15,11 +15,11 @@ const AddItem = ({ onItemAdded }) => {
 
     return (
         <form onSubmit={handleSubmit} className="p-5 bg-amber-100">
-            <input type="text" placeholder="Item Name" required className="border p-2 mr-2 rounded-3xl"
+            <input type="text" placeholder="Item Name" required className="border p-2 mr-2 hover:bg-stone-200 rounded-3xl"
                 value={name} onChange={(e) => setName(e.target.value)} />
-            <input type="text" placeholder="Category" required className="border p-2 mr-2 rounded-3xl"
+            <input type="text" placeholder="Category" required className="border p-2 mr-2 hover:bg-stone-200 rounded-3xl"
                 value={category} onChange={(e) => setCategory((e.target.value))} />
-            <button type="submit" className="bg-blue-300 rounded-4xl text-gray-600 px-3 py-2">Add Item</button>
+            <button type="submit" className="bg-blue-300 rounded-4xl cursor-pointer hover:bg-blue-100 text-gray-600 px-3 py-2">Add Item</button>
         </form>
     );
 };
