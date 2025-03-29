@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:9000/api/items";
+const API_BASE_URL = "https://items-management-xqs4.onrender.com/api/items";
 
 // GET Items (with search filtering)
 export const fetchItems = async (search = "") => {
