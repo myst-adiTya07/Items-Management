@@ -16,7 +16,6 @@
 - **State Management:** React Hooks
 - **Deployment:** Vercel/Netlify (Frontend), Render (Backend)
 
-## ⚙️ Setup Instructions
 1. Clone the repo:
    ```sh
-  git clone https://github.com/myst-adiTya07/Items-Management.git
+   git clone https://github.com/myst-adiTya07/Items-Management.git
